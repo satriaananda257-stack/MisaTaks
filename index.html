@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MisaTaks - LandingPage</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="/images/">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+</head>
+<!-- ini belum selesai  tapi boleh ga di nilai please -->
+<body class="font-poppins">
+
+  <nav class="bg-[#009E60] fixed z-50 top-0 left-0 right-0 shadow-md min-w-340 max-w-480">
+    <div class="w-7xl mx-auto px-4 sm:px-6 lg:px-2">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0">
+          <h1 class="text-3xl font-semibold text-[#FFFFFF]">MisaTask</h1>
+        </div>
+
+        <div class="hidden md:flex items-center space-x-10">
+          <a href="#home" class="text-white font-semibold">Home</a>
+          <a href="#" class="text-white font-semibold">Features</a>
+          <a href="#" class="text-white font-semibold">FAQs</a>
+          <a href="#" class="text-white font-semibold border-l-2 px-3">Sign Up</a>
+          <a href="#" class="text-white font-semibold">Log In</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<main class="flex flex-col">
+  <section class="flex justify-between items-center px-12 py-24 bg-linear-180 from-secondary-gradient to-white" id="home">
+    <div class="flex flex-col gap-8 justify-start">
+      <header class="flex flex-col gap-4">
+        <h1 class="font-bold text-7xl text-main-dark">MisaTaks</h1>
+        <p class="text-md font-medium">
+              Manage any tasks easily whenever and wherever you are.</p>
+      </header>
+      <a href="#" class="bg-[#009E60] hover:bg-[#009E80] text-white font-semibold w-fit px-4 py-2 rounded-full duration-300 ease-out">Start Organizing</a>
+    </div>
+    <aside class="group overflow-hidden select-none relative">
+      <img src="./images/Logo-MisaTask-Rev-01.png" alt="logo" class="pin w-90 absolute">
+      <img src="./images/Logo-MisaTask-Rev-02.png" alt="logo" class="clock w-90 group-hover:rotate-180 duration-1000">
+    </aside>
+  </section>
+</main>
+
+  <footer class="pt-12 pb-6 px-4 bg-gray-200" >
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h5 class="font-bold text-xl text-gray-800">MisaTask</h5>
+        <p class="text-sm text-gray-600 mt-2">Manage your task easily anytime and anywhere.</p>
+        <p class="text-sm text-gray-600 mt-4"><i class="fas fa-phone-alt mr-2 text-blue-500"></i>+62 123-4567-7890</p>
+        <p class="text-sm text-gray-600"><i class="fas fa-envelope mr-2 text-blue-500"></i>misatask@gmail.com</p>
+        <p class="text-sm font-medium text-blue-600 mt-2 cursor-pointer hover:underline">Contact us</p>
+      </div>
+      <div>
+        <h5 class="font-bold text-xl text-gray-800">Navigation</h5>
+        <ul class="mt-4 space-y-2 text-sm text-gray-600">
+          <li class="hover:text-blue-600 cursor-pointer">Home</li>
+          <li class="hover:text-blue-600 cursor-pointer">Features</li>
+          <li class="hover:text-blue-600 cursor-pointer">FAQ</li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-bold text-xl text-gray-800">Social</h5>
+        <ul class="mt-4 space-y-2 text-sm text-gray-600">
+          <li class="hover:text-blue-600 cursor-pointer"><i class="fab fa-whatsapp mr-2 text-green-500"></i>WhatsApp</li>
+          <li class="hover:text-blue-600 cursor-pointer"><i class="fab fa-instagram mr-2 text-pink-500"></i>Instagram</li>
+          <li class="hover:text-blue-600 cursor-pointer"><i class="fab fa-facebook mr-2 text-blue-700"></i>Facebook</li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-sm text-gray-500 mt-10 pt-6 border-t border-gray-200">
+      Copyright © 2025, MisaTask, All Rights Reserved
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
